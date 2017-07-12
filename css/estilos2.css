@@ -1,0 +1,147 @@
+#logo {
+    width: 35px;
+    margin: 0;
+    margin-top: -10px;
+}
+
+#page6 {
+    background: darkcyan;
+}
+
+#page7 {
+    background-color: darkcyan;
+}
+
+#page8 {
+    background-color: darkcyan;
+}
+
+#page9 {
+    background-color: darkcyan;
+}
+
+#page10 {
+    background-color: darkcyan;
+}
+
+.contenedor {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+    padding: 3px;
+    border: black 2px solid;
+}
+
+.contenedor2 {
+    float: left;
+    border: black 20px solid;
+}
+
+.derecha {
+    margin-left: 60%;
+    margin-top: 5%;
+    width: 25%;
+    border-radius: 10px;
+    border: black 20px solid;
+}
+
+.containerImg {
+    width: 45%;
+}
+
+.li {
+    float: left;
+    margin-left: 60%;
+}
+
+.map {
+    float: left;
+    margin-left: 50%;
+    margin-top: -25%;
+}
+
+* {
+    margin: 0%;
+    padding: 0px;
+    font-family: verdana;
+}
+
+.dashboarh {
+    margin-top: -1000px;
+    width: 1030px;
+    height: 230px;
+    margin-left: 20%;
+    background-color: red;
+}
+
+div.contenedor {
+    width: 200px;
+    height: 230px;
+    float: left;
+    border-radius: 10px;
+    transition: height .4s;
+}
+
+div#uno {
+    background-color: rgb(208, 101, 3);
+}
+
+div#dos {
+    background-color: rgb(233, 147, 26);
+}
+
+div#tres {
+    background-color: rgb(22, 145, 190);
+}
+
+div#cuatro {
+    background-color: rgb(22, 107, 162);
+}
+
+div#cinco {
+    background-color: rgb(27, 40, 54);
+}
+
+img.icon {
+    display: block;
+    margin: 50px auto;
+    background-color: red;
+    width: 67%;
+    padding: 20px;
+    border-radius: 20%;
+}
+
+div.contenedor:hover {
+    height: 250px;
+}
+
+section.barra_izquierda {
+    width: 19%;
+    height: 500px;
+    background-color: aqua;
+    border-radius: 10%;
+    opacity: 0.8;
+}
+
+.img {
+    width: 50%;
+}
+
+nav.encabezado {
+    text-align: center;
+    margin-top: 5%;
+    background-color: darkgray;
+    width: 30%;
+    height: 50px;
+    margin-left: 40%;
+    font-size: 30px;
+}
+
+p.texto {
+    margin-top: 3%;
+    border: black 10px solid;
+    text-align: justify;
+    font-size: 20px;
+    background-color: aqua;
+}

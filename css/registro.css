@@ -1,0 +1,38 @@
+legend {
+    background: #610B21;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+.form-group #Direccion {
+    width: 78%;
+}
+
+.form-group #Nombre {
+    width: 78%
+}
+
+.form-group #Apellido {
+    width: 78%;
+}
+
+.form-group #Telefono {
+    width: 78%;
+}
+
+.form-group #Email {
+    width: 78%;
+}
+
+.form-group #Celular {
+    width: 78%;
+}
+
+.form-group #Provincia {
+    width: 78%;
+}
