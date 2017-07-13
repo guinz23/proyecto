@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>ApartarRide</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estilos2.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <body id="ApartarRide">
+        <header>
+            <nav class="navbar navbar-inverse navbar-stactic-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle collapsed" data-target="#navegacion" data-toggle="collapse" type="button">
+                                            <span class="sr-only">
+                                                Desplegar/Ocultar Menu
+                                            </span>
+                                            <span class="icon-bar">
+                                            </span>
+                                            <span class="icon-bar">
+                                            </span>
+                                            <span class="icon-bar">
+                                            </span>
+                                        </button>
+                        <a class="navbar-brand" href="Login.html">
+                            <img alt="..." class="img-circle" id="logo" src="img/carpool-logo.png">
+                            </img>
+                        </a>
+                    </div>
+                    <!---inicia Menu--->
+                    <div class="collapse navbar-collapse" id="navegacion">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#">
+                                                    Inicio
+                                                </a>
+                            </li>
+                            <li class="Menu desplegable">
+                                <a class="dropdown-togle" data-toggle="dropdown" href="#" role="button">
+                                                    Categorias
+                                                    <span class="caret">
+                                                    </span>
+                                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="Imfome.html">
+                                                            Imformes
+                                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ApartarRide.html">
+                                                            Apartar Ride
+                                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="dashboar.html">
+                                                            Dashboar
+                                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="Mantenimiento.html">
+                                                            Mantenimiento
+                                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="Perfiles.html">
+                                                            Perfiles
+                                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="imformativa.html">
+                                                           Imformativa
+                                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="registro.html">
+                                                Registro
+                                                </a>
+                            </li>
+                            <li>
+                                <a href="configuraciones.html">
+                                                    Configuraciones
+                                                </a>
+                            </li>
+                        </ul>
+                        <form action="" class="navbar-form navbar-right" role="search">
+                            <div class="grupo-de-formularios">
+                                <input "" class="form-control" div="" placeholder="buscar" type="text">
+                                <button class="btn btn-primary" type="submit">
+                                                        <span class=" glyphicon glyphicon-search">
+                                                        </span>
+                                                    </button>
+                                </input>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="form-group_header">
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Nombre">Nombre del Ride</label>
+                <div class="col-md-5">
+                    <input id="Nombre_del_ride" name="Nombre_del_ride" type="text" class="form-control input-md">
+
+                </div>
+                <br>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="Star_from">Start from</label>
+                    <div class="col-md-4">
+                        <select id="disponibles" name="Star_from" class="form-control">
+      <option value="1">Sanjose</option>
+      <option value="2">Alajuela</option>
+      <option value="3">Cartago</option>
+      <option value="4">Heredia</option>
+      <option value="5">Guanacaste</option>
+      <option value="6">Puntarenas</option>
+      <option value="7">Limon</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="Star_from">End</label>
+                    <div class="col-md-4">
+                        <select id="llegada" name="Star_from" class="form-control">
+      <option value="1">Sanjose</option>
+      <option value="2">Alajuela</option>
+      <option value="3">Cartago</option>
+      <option value="4">Heredia</option>
+      <option value="5">Guanacaste</option>
+      <option value="6">Puntarenas</option>
+      <option value="7">Limon</option>
+                        </select>
+                    </div>
+
+                </div>
+
+
+        </section>
+        <section class="form-group_header1">
+            <label class="col-md-4 control-label" for="Star_from">Descripcion<textarea name="comentarios" rows="6" cols="40"></textarea>
+            </label>
+        </section>
+
+
+        <hr id="linea" />
+        <h2 id="texto1">CUANDO</h2>
+        <h2 id="texto2">
+            SELECCIONE LOS DIAS.
+        </h2>
+        <section class="part1">
+            <label class="col-md-4 control-label">Hora de Solicitud
+                <input class="form"
+                       type="text"> 
+            </label>
+            <label class="col-md-4 control-label">Hora de  de llegada
+                <input class="form"
+                       type="text"> 
+            </label>
+        </section>
+        <section class=" part2">
+            <ul class="list-group">
+                <li class="list-group-item">Lunes <input type="checkbox" /></li>
+                <li class="list-group-item">Martes <input type="checkbox" /></li>
+                <li class="list-group-item">Miercoles <input type="checkbox" /></li>
+                <li class="list-group-item">Jueves <input type="checkbox" /></li>
+                <li class="list-group-item">Viernes <input type="checkbox" /></li>
+                <li class="list-group-item">Sabado <input type="checkbox" /></li>
+                <li class="list-group-item">Domingo <input type="checkbox" /></li>
+                <button class="save" type="button">Save</button>
+            </ul>
+        </section>
+    </body>
+    <script src="js/jquery.js">
+
+
+    </script>
+    <script src="js/bootstrap.js">
+
+
+    </script>
+
+</html>
