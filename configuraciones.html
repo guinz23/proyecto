@@ -32,7 +32,7 @@
                     <div class="collapse navbar-collapse" id="navegacion">
                         <ul class="nav navbar-nav">
                             <li>
-                                <a href="#">
+                                <a href="index.html">
                                                     Inicio
                                                 </a>
                             </li>
@@ -100,17 +100,25 @@
                 </div>
             </nav>
         </header>
-        <section class="config">
-            <label class="label">Nombre Completo <input class="button" type="text"/></label>
-            <label class="label">Velocidad Promedio <input class="button" type="text"/></label>
-        </section>
-        <section class="config">
-            <div class="up">
-                <label class="textarea" for="comment">Comment:</label>
-                <textarea class="form-control" rows="5" id="comment"></textarea>
+        <div class=”row”>
+            <div class=”col-lg-3 col-md-4 col-sm-6 col-xs-12″> <input class="filas" type="text" placeholder="FullName"></input>
             </div>
-        </section>
-        <button class="save1" type="button">Save</button>
+            <div class=”col-lg-3 col-md-4 col-sm-6 col-xs-12″> <input class="filas" type="text" placeholder="speed average"> </input>
+            </div>
+            <img class="img_config" src="img/confi.png">
+            <div class=”col-lg-3 col-md-4 col-sm-6 col-xs-12″>
+               
+                <form  class="formulario"action="/action_page.php">
+                    <textarea name="message" rows="10" cols="30"></textarea>
+                    <br>
+                    <input type="submit">
+                </form>
+            </div>
+            <div class=”col-lg-3 col-md-4 col-sm-6 col-xs-12″> </div>
+        </div>
+
+
+
     </body>
     <script src="js/jquery.js">
 

@@ -100,80 +100,79 @@
                 </div>
             </nav>
         </header>
-        <section class="form-group_header">
-            <div class="form-group">
-                <label class="col-md-4 control-label" for="Nombre">Nombre del Ride</label>
-                <div class="col-md-5">
-                    <input id="Nombre_del_ride" name="Nombre_del_ride" type="text" class="form-control input-md">
+        <div class="row">
+                <div class="c">
+                    <img src="img/carpool-logo.png" alt="" class="log">
+                    <button class="butt">
+                     <a href="configuraciones.html">
+                         Setting
+                     </a>
+                </button>
+                    <button class="butt">
+                    <a href="dashboar.html">
+                       Dashboard
+                   </a>
+                </button>
 
+                    <button class="butt">
+                     <a href="ApartarRide.html"> rides</a>
+                     
+                </button>
                 </div>
-                <br>
-                <div class="form-group">
-                    <label class="col-md-4 control-label" for="Star_from">Start from</label>
-                    <div class="col-md-4">
-                        <select id="disponibles" name="Star_from" class="form-control">
-      <option value="1">Sanjose</option>
-      <option value="2">Alajuela</option>
-      <option value="3">Cartago</option>
-      <option value="4">Heredia</option>
-      <option value="5">Guanacaste</option>
-      <option value="6">Puntarenas</option>
-      <option value="7">Limon</option>
-                        </select>
-                    </div>
+            </div>
+            <div class="col-xs-12 col-md-8 col-lg-2">
+                <div class="h">
+                    <input class="form-ride" type="text" placeholder="Ride Name">
+                    <input class="form-ride" type="text" placeholder="Star From">
+                    <input class="form-ride" type="text" placeholder="End">
                 </div>
-                <br>
-                <div class="form-group">
-                    <label class="col-md-4 control-label" for="Star_from">End</label>
-                    <div class="col-md-4">
-                        <select id="llegada" name="Star_from" class="form-control">
-      <option value="1">Sanjose</option>
-      <option value="2">Alajuela</option>
-      <option value="3">Cartago</option>
-      <option value="4">Heredia</option>
-      <option value="5">Guanacaste</option>
-      <option value="6">Puntarenas</option>
-      <option value="7">Limon</option>
-                        </select>
-                    </div>
-
+            </div>
+            <div class="col-xs-12 col-md-8 col-lg-2">
+                <div class="panel-texto">
+                    <textarea name="message" rows="10" cols="50"></textarea>
                 </div>
 
+            </div>
+            <div class="col-xs-12 col-md-8 col-lg-2">
+                <div class="footer">
+                    <input type="text" placeholder="Departure 00:00">
+                    <input type="text" placeholder=" Estimated Arrival:00:00">
+                </div>
 
-        </section>
-        <section class="form-group_header1">
-            <label class="col-md-4 control-label" for="Star_from">Descripcion<textarea name="comentarios" rows="6" cols="40"></textarea>
-            </label>
-        </section>
+            </div>
+            <div class="col-xs-12 col-md-8 col-lg-2">
+                <div class=" days-of-week">
+                    <label for="Dias"> DIAS DE LA SEMANA</label>
+                    <ul>
+                        <li> <input class="chek-day" type="checkbox" placeholder="Lunes">Lunes</input>
+                        </li>
+                        <li><input class="chek-day" type="checkbox" placeholder="Martes">Martes</input>
+                        </li>
+                        <li> <input class="chek-day" type="checkbox" placeholder="Miercoles">Miercoles</input>
+                        </li>
+                        <li><input class="chek-day" type="checkbox" placeholder="Miercoles">Miercoles</input>
+                        </li>
+                        <li><input class="chek-day" type="checkbox" placeholder="Jueves">Jueves</input>
+                        </li>
+                        <li> <input class="chek-day" type="checkbox" placeholder="Viernes">viernes</input>
+                        </li>
+                        <li><input class="chek-day" type="checkbox" placeholder="sabado">sabado</input></li>
+                        <li> <input class="chek-day" type="checkbox" placeholder="Domingo">Domingo</input></li>
+                    </ul>
 
 
-        <hr id="linea" />
-        <h2 id="texto1">CUANDO</h2>
-        <h2 id="texto2">
-            SELECCIONE LOS DIAS.
-        </h2>
-        <section class="part1">
-            <label class="col-md-4 control-label">Hora de Solicitud
-                <input class="form"
-                       type="text"> 
-            </label>
-            <label class="col-md-4 control-label">Hora de  de llegada
-                <input class="form"
-                       type="text"> 
-            </label>
-        </section>
-        <section class=" part2">
-            <ul class="list-group">
-                <li class="list-group-item">Lunes <input type="checkbox" /></li>
-                <li class="list-group-item">Martes <input type="checkbox" /></li>
-                <li class="list-group-item">Miercoles <input type="checkbox" /></li>
-                <li class="list-group-item">Jueves <input type="checkbox" /></li>
-                <li class="list-group-item">Viernes <input type="checkbox" /></li>
-                <li class="list-group-item">Sabado <input type="checkbox" /></li>
-                <li class="list-group-item">Domingo <input type="checkbox" /></li>
-                <button class="save" type="button">Save</button>
-            </ul>
-        </section>
+
+
+
+                    
+                   
+
+
+                </div>
+            </div>
+
+        </div>
+
     </body>
     <script src="js/jquery.js">
 

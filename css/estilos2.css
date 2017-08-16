@@ -202,63 +202,61 @@ h2#texto2 {
     margin-top: -3%;
 }
 
-section.part1 {
-    background-color: #FA58D0;
-    width: 50%;
-    height: 100px;
-    border-radius: 10px;
-    border: black 10px solid;
+.filas {
+    margin-left: 30%;
+    margin-top: 1%;
+    border: white 8px outset;
+    float: left;
 }
 
-.form {
-    margin-top: 10px;
+div .formulario {
+    margin-left: 30%;
+    margin-top: 1%;
 }
 
-section.part2 {
-    background-color: #088A68;
-    width: 49%;
-    height: 351px;
-    ;
-    border-radius: 10px;
-    border: black 10px solid;
-    float: right;
-    margin-top: -7.5%;
-}
-
-button.save {
-    margin-left: 5%;
-    background-color: black;
-    color: white;
+.img_config {
     width: 20%;
-    border: black 10px solid;
+    float: right;
+    margin-right: 20%;
+    border-radius: 50%;
+    border: black 8px outset;
 }
 
-section.config {
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    width: 60%;
-    margin-left: 25%;
-    height: 200px;
-    border: black 10px solid;
-    background-color: #848484;
+.p {
+    width: 95%;
+    margin-left: 30%;
 }
 
-.label.button {
-    margin-top: 200px;
+.butt {
+    border: white 8px outset;
 }
 
-label.textarea {
-    width: 30%;
-    margin-top: -120px
+.c {
+    margin-left: 30%;
 }
 
-.save1 {
-    color: cyan;
-    background-color: black;
-    width: 10%;
-    height: 40px;
-    margin-top: 10px;
-    margin-left: 40%;
+.h {
+    margin-left: 30%;
+}
+
+.h .form-ride {
+    width: 33%;
+}
+
+.panel-texto {
+    margin-top: 2%;
+    margin-left: 30%;
+}
+.footer{
+    margin-left: 30%;
+}
+
+@media (max-width: 600px) {
+    .panel-texto {
+       display: none;
+    }
+}
+.days-of-week{
+    margin-left: 30%;
+    width: 25%;
 }

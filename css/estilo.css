@@ -19,19 +19,20 @@ body {
 #first-img {
     margin: 0px;
     height: 500px;
-    width: 600px;
+    width: 500px;
     float: left;
     border-radius: 10px;
-    margin-left: 50px;
+    margin-left: 2%;
+   
 }
 
 #second-img {
     float: right;
     height: 500px;
-    width: 600px;
-    margin: 0px;
+    width: 500px;
     border-radius: 10px;
-    margin-right: 50px;
+    margin-right:2%;
+    margin-left: -2%;
 }
 
 .contenedor h1 {

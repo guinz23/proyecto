@@ -1,0 +1,16 @@
+body{
+     background-color: darkcyan;
+    
+} 
+#logo {
+    width: 25px;
+    height: 30px;
+    margin: 0;
+    margin-top: -4px;
+}
+li a{
+    color: white;
+}
+#margin{
+  margin-top: -15px;  
+}
