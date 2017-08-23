@@ -1,218 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!--<link rel="icon" href="../../favicon.ico">  ICONO -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bootstrap</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+	<title>Bootstrap</title>
 
-    <link href="../css/Dashboard.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="css/dashboard.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <nav class="navbar navbar-inverse navbar-stactic-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button class="navbar-toggle collapsed" data-target="#navegacion" data-toggle="collapse" type="button">
-                                            <span class="sr-only">
-                                                Desplegar/Ocultar Menu
-                                            </span>
-                                            <span class="icon-bar">
-                                            </span>
-                                            <span class="icon-bar">
-                                            </span>
-                                            <span class="icon-bar">
-                                            </span>
-                                        </button>
-                <a class="navbar-brand" href="Login.html">
-                    <img alt="..." class="img-circle" id="logo" src="img/carpool-logo.png">
-                    </img>
-                </a>
-            </div>
-            <!---inicia Menu--->
-            <div class="collapse navbar-collapse" id="navegacion">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+				<a class="navbar-brand" href="#">DASHBOARD</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<<ul class="nav navbar-nav">
+						<li>
+							<a href="index.html">
                                                     Inicio
                                                 </a>
-                    </li>
-                    <li class="Menu desplegable">
-                        <a class="dropdown-togle" data-toggle="dropdown" href="#" role="button">
+						</li>
+						<li class="Menu desplegable">
+							<a class="dropdown-togle" data-toggle="dropdown" href="#" role="button">
                                                     Categorias
                                                     <span class="caret">
                                                     </span>
                                                 </a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li>
-                                <a href="Imfome.html">
+							<ul class="dropdown-menu" role="menu">
+								<li>
+									<a href="Imfome.html">
                                                             Imformes
                                                         </a>
-                            </li>
-                            <li>
-                                <a href="ApartarRide.html">
+								</li>
+								<li>
+									<a href="ApartarRide.html">
                                                             Apartar Ride
                                                         </a>
-                            </li>
-                            <li>
-                                <a href="dashboar.html">
+								</li>
+								<li>
+									<a href="dashboar.html">
                                                             Dashboar
                                                         </a>
-                            </li>
-                            <li>
-                                <a href="Mantenimiento.html">
+								</li>
+								<li>
+									<a href="Mantenimiento.html">
                                                             Mantenimiento
                                                         </a>
-                            </li>
-                            <li>
-                                <a href="Perfiles.html">
+								</li>
+								<li>
+									<a href="Perfiles.html">
                                                             Perfiles
                                                         </a>
-                            </li>
-                            <li>
-                                <a href="imformativa.html">
+								</li>
+								<li>
+									<a href="imformativa.html">
                                                            Imformativa
                                                         </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="registro.html">
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="registro.html">
                                                 Registro
                                                 </a>
-                    </li>
-                    <li>
-                        <a href="configuraciones.html">
+						</li>
+						<li>
+							<a href="configuraciones.html">
                                                     Configuraciones
                                                 </a>
-                    </li>
-                </ul>
-                <form action="" class="navbar-form navbar-right" role="search">
-                    <div class="grupo-de-formularios">
-                        <input "" class="form-control" div="" placeholder="buscar" type="text">
-                        <button class="btn btn-primary" type="submit">
+						</li>
+					</ul>
+				<form class="navbar-form navbar-right">
+					<input  id="campobusqueda" type="text" class="form-control" placeholder="Buscar...">
+					<button id="buscar" class="btn btn-primary" type="button">
                                                         <span class=" glyphicon glyphicon-search">
                                                         </span>
                                                     </button>
-                        </input>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </nav>
+				</form>
+			</div>
+		</div>
+	</nav>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3 col-md-2 sidebar">
-                <ul class="nav nav-sidebar">
-                    <li><a href="./index.html">Framework CSS <span class="sr-only">(current)</span></a></li>
-                    <li><a href="./Grid.html">Grid System</a></li>
-                </ul>
-                <ul class="nav nav-sidebar">
-                    <li><a href="./Less_Sass.html">Less y Sass</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-9 col-md-10 col-md-offset-2  main" id="margin">
-                <h1 class="page-header">Dashboard</h1>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3 col-md-2 sidebar">
+				<ul class="nav nav-sidebar">
+					<li class="active"><a href="./index.html">WELCOME <span class="sr-only">(current)</span></a></li>
+					<li><a href="configuraciones.html">Configuraciones</a></li>
+				</ul>
+				<ul class="nav nav-sidebar">
+					<li><a href="ApartarRide.html">Ride</a></li>
+					<li><a href="dashboar.html">Dashboard</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-9 col-md-11 col-md-offset-2  main">
+				<h1 class="page-header">Dashboard</h1>
 
-                <div class="row placeholders">
-                    <div class="col-xs-6 col-sm-3 placeholder">
-                        <img src="http://3.bp.blogspot.com/-ti-MI9Zl3nM/VWcvaDixo3I/AAAAAAAAAJQ/nI7svyjT5vg/s1600/usuario.png" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-                        <h4>Usuario#1</h4>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 placeholder">
-                        <img src="http://3.bp.blogspot.com/-ti-MI9Zl3nM/VWcvaDixo3I/AAAAAAAAAJQ/nI7svyjT5vg/s1600/usuario.png" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-                        <h4>Usuario#2</h4>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 placeholder">
-                        <img src="http://3.bp.blogspot.com/-ti-MI9Zl3nM/VWcvaDixo3I/AAAAAAAAAJQ/nI7svyjT5vg/s1600/usuario.png" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-                        <h4>Usuario#3</h4>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 placeholder">
-                        <img src="http://3.bp.blogspot.com/-ti-MI9Zl3nM/VWcvaDixo3I/AAAAAAAAAJQ/nI7svyjT5vg/s1600/usuario.png" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-                        <h4>Usuario#4</h4>
-                    </div>
-                </div>
+				<div class="row placeholders">
+					<div class="col-xs-6 col-sm-3 placeholder">
+						<img src="img/user.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+						<h4>USER</h4>
+					</div>
+					<div class="col-xs-6 col-sm-3 placeholder">
+						<img src="img/user.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+						<h4>USER</h4>
+					</div>
+					<div class="col-xs-6 col-sm-3 placeholder">
+						<img src="img/user.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+						<h4>USER</h4>
+					</div>
+					<div class="col-xs-6 col-sm-3 placeholder">
+						<img src="img/user.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+						<h4>USER</h4>
+					</div>
+				</div>
 
-                <div class="table-responsive">
-                    <table class="table table-striped">
-                        <thead>
-                            <tr>
-                                <th>Nombre</th>
-                                <th>Apellido</th>
-                                <th>Telefono</th>
-                                <th>Email</th>
-                                <th>Celular</th>
-                                <th>Direccion</th>
-                                <th>Provincia</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>juan'</td>
-                                <td>lopez</td>
-                                <td>50117033</td>
-                                <td>Juangabrielllopez30gmail.com</td>
-                                <td>525255</td>
-                                <td>BarrioLosAngeles</td>
-                                <td>Alajuela</td>
-                            </tr>
-                            <tr>
-                              <td>juan'</td>
-                                <td>lopez</td>
-                                <td>50117033</td>
-                                <td>Juangabrielllopez30gmail.com</td>
-                                <td>525255</td>
-                                <td>BarrioLosAngeles</td>
-                                <td>Alajuela</td>
-                            </tr>
-                            <tr>
-                                <td>juan'</td>
-                                <td>lopez</td>
-                                <td>50117033</td>
-                                <td>Juangabrielllopez30gmail.com</td>
-                                <td>525255</td>
-                                <td>BarrioLosAngeles</td>
-                                <td>Alajuela</td>
-                            </tr>
-                            <tr>
-                                 <td>juan'</td>
-                                <td>lopez</td>
-                                <td>50117033</td>
-                                <td>Juangabrielllopez30gmail.com</td>
-                                <td>525255</td>
-                                <td>BarrioLosAngeles</td>
-                                <td>Alajuela</td>
-                            </tr>
-                            <tr>
-                              <td>juan'</td>
-                                <td>lopez</td>
-                                <td>50117033</td>
-                                <td>Juangabrielllopez30gmail.com</td>
-                                <td>525255</td>
-                                <td>BarrioLosAngeles</td>
-                                <td>Alajuela</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div>
+				<div class="table-responsive">
+					<table id="grid" class="table table-striped">
+						<thead>
+							<tr>
+								<th>
+									NombreRide
+								</th>
+								<th>
+									SalidaDestino
+								</th>
+								<th>
+									LlegadaDestino
+								</th>
+								<th>
+									Comentario
+								</th>
+								<th>
+									salida
+								</th>
+								<th>
+									llegada
+								</th>
+								<th>
+									Dias
+									<button id="btn-add" class="btn btn-default">cargar</button>
+								</th>
+								
+							</tr>
+						</thead>
+						<tbody></tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.js">
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+	</script>
+	<script src="js/bootstrap.js">
 
+
+	</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/cargarRides.js"></script>
 </body>
+
 </html>

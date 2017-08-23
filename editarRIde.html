@@ -2,12 +2,12 @@
 <html lang="es">
 
 <head>
-	<title>Configuracion</title>
+	<title>ApartarRide</title>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="css/estilos2.css" />
 	<link rel="stylesheet" href="css/bootstrap.css" />
 
-	<body id="configuraciones">
+	<body id="ApartarRide">
 		<header>
 			<nav class="navbar navbar-inverse navbar-stactic-top" role="navigation">
 				<div class="container">
@@ -32,7 +32,7 @@
 					<div class="collapse navbar-collapse" id="navegacion">
 						<ul class="nav navbar-nav">
 							<li>
-								<a href="index.html">
+								<a href="#">
                                                     Inicio
                                                 </a>
 							</li>
@@ -100,23 +100,72 @@
 				</div>
 			</nav>
 		</header>
-		<div class=”row”>
-			<div class=”col-lg-3col-md-4col-sm-6col-xs-12″> <input class="filas" type="text" placeholder="FullName"></input>
-			</div>
-			<input class="filas" type="text" placeholder="speed average"> </input>
-			<img class="img_config" src="img/confi.png">
-			<div class=”col-lg-3col-md-4col-sm-6col-xs-12″>
+		<div class="row">
+			<div class="col-xs-12 col-md-8 col-lg-12">
+				<div class="c">
+					<img src="img/carpool-logo.png" alt="" class="log">
+					<button class="butt">
+                     <a href="configuraciones.html">
+                         Setting
+                     </a>
+                </button>
+					<button class="butt">
+                    <a href="dashboar.html">
+                       Dashboard
+                   </a>
+                </button>
 
-				<form class="formulario" action="/action_page.php">
-					<textarea name="message" rows="10" cols="30"></textarea>
-					<br>
-					<input type="submit">
-				</form>
+					<button class="butt">
+                     <a href="ApartarRide.html"> rides</a>
+                     
+                </button>
+				</div>
 			</div>
-			
+			<div class="col-xs-12 col-md-8 col-lg-12">
+				<div class="h">
+				     <select onchange="cambiar()" class="form-ride" id="ridedisponible"></select>
+					<input   id="nombreride" class="form-ride" type="text" placeholder="Ride Name">
+					<input id="comienzo" class="form-ride" type="text" placeholder="Star From">
+					<input id="llegada" class="form-ride" type="text" placeholder="End">
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-8 col-lg-12">
+				<div class="panel-texto">
+					<textarea id="comentario" name="message" rows="10" cols="50"></textarea>
+				</div>
+
+			</div>
+			<div class="col-xs-12 col-md-8 col-lg-12">
+				<div class="footer">
+					<input id="salida" type="text" placeholder="Departure 00:00">
+					<input id="tiempodeArrivo" type="text" placeholder=" Estimated Arrival:00:00">
+				</div>
+
+			</div>
+			<div class="col-xs-12 col-md-8 col-lg-12">
+				<div class=" days-of-week">
+					<label for="Dias"> DIAS DE LA SEMANA</label>
+					<ul>
+						<li><input id="day1" class="chek-day" type="checkbox" placeholder="Lunes">Lunes</input>
+						</li>
+						<li><input id="day2" class="chek-day" type="checkbox" placeholder="Martes">Martes</input>
+						</li>
+						<li><input id="day3" class="chek-day" type="checkbox" placeholder="Miercoles">Miercoles</input>
+						</li>
+	                     <li><input id="day4" class="chek-day" type="checkbox" placeholder="Jueves">Jueves</input>
+						</li>
+						<li> <input id="day5" class="chek-day" type="checkbox" placeholder="Viernes">viernes</input>
+						</li>
+						<li><input id="day6" class="chek-day" type="checkbox" placeholder="sabado">sabado</input>
+						</li>
+						<li> <input id="day7" class="chek-day" type="checkbox" placeholder="Domingo">Domingo</input>
+						</li>
+					</ul>
+                   <button id="update" class="btn" onclick="actualizar();">Actualizar</button>
+                   <button id="delete" class="btn" onclick="Eliminar();">Eliminar</button>
+				</div>
+			</div>
 		</div>
-
-
 		<script src="js/jquery.js">
 
 
@@ -125,7 +174,11 @@
 
 
 		</script>
-	</body>
+		<script type="text/javascript" src="js/editarRide.js">
 
+
+		</script>
+
+	</body>
 
 </html>

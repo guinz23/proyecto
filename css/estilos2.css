@@ -203,16 +203,19 @@ h2#texto2 {
 }
 
 .filas {
-    margin-left: 30%;
+    margin-left: 10%;
     margin-top: 1%;
     border: white 8px outset;
     float: left;
 }
 
 div .formulario {
-    margin-left: 30%;
-    margin-top: 1%;
+    margin-left: 10%;
+    margin-top: 3%;
+	background-color: crimson;
+	 margin-right: 10%;
 }
+
 
 .img_config {
     width: 20%;

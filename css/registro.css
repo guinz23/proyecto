@@ -42,3 +42,16 @@ body {
     margin: 0;
     margin-top: -10px;
 }
+
+.filas {
+
+   margin-top: 10%;
+    margin-left: 1%;
+     border: dodgerblue 8px outset;
+}
+.filas_de_texto{
+    margin-left: 30%;
+   
+   
+}
+

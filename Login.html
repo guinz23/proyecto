@@ -2,20 +2,22 @@
 <html lang="es">
 
 <head>
-    <meta content="width=device-width, user-scalable=no" name="viewport">
-    <meta charset="utf-8" />
-    <title>
-        Login
-    </title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/login.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<title>
+		Login
+	</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="css/login.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
 
-    <body>
-        <header>
-            <nav class="navbar navbar-inverse navbar-stactic-top" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button class="navbar-toggle collapsed" data-target="#navegacion" data-toggle="collapse" type="button">
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-stactic-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle collapsed" data-target="#navegacion" data-toggle="collapse" type="button">
                                             <span class="sr-only">
                                                 Desplegar/Ocultar Menu
                                             </span>
@@ -26,114 +28,98 @@
                                             <span class="icon-bar">
                                             </span>
                                         </button>
-                        <a class="navbar-brand" href="Login.html">
-                            <img alt="..." class="img-circle" id="logo" src="img/carpool-logo.png">
-                            </img>
-                        </a>
-                    </div>
-                    <!---inicia Menu--->
-                    <div class="collapse navbar-collapse" id="navegacion">
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <a href="index.html">
+					<a class="navbar-brand" href="Login.html">
+						<img alt="..." class="img-circle" id="logo" src="img/carpool-logo.png">
+						</img>
+					</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="navegacion">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="#">
                                                     Inicio
                                                 </a>
-                            </li>
-                            <li class="Menu desplegable">
-                                <a class="dropdown-togle" data-toggle="dropdown" href="#" role="button">
+						</li>
+						<li class="Menu desplegable">
+							<a class="dropdown-togle" data-toggle="dropdown" href="#" role="button">
                                                     Categorias
                                                     <span class="caret">
                                                     </span>
                                                 </a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li>
-                                        <a href="Imfome.html">
+							<ul class="dropdown-menu" role="menu">
+								<li>
+									<a href="#">
                                                             Imformes
                                                         </a>
-                                    </li>
-                                    <li>
-                                        <a href="ApartarRide.html">
+								</li>
+								<li>
+									<a href="#">
                                                             Apartar Ride
                                                         </a>
-                                    </li>
-                                    <li>
-                                        <a href="dashboar.html">
+								</li>
+								<li>
+									<a href="#">
                                                             Dashboar
                                                         </a>
-                                    </li>
-                                    <li>
-                                        <a href="Mantenimiento.html">
+								</li>
+								<li>
+									<a href="#">
                                                             Mantenimiento
                                                         </a>
-                                    </li>
-                                    <li>
-                                        <a href="Perfiles.html">
+								</li>
+								<li>
+									<a href="#">
                                                             Perfiles
                                                         </a>
-                                    </li>
-                                    <li>
-                                        <a href="imformativa.html">
+								</li>
+								<li>
+									<a href="#">
                                                            Imformativa
                                                         </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="registro.html">
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">
                                                 Registro
                                                 </a>
-                            </li>
-                            <li>
-                                <a href="configuraciones.html">
+						</li>
+						<li>
+							<a href="#">
                                                     Configuraciones
                                                 </a>
-                            </li>
-                        </ul>
-                        <form action="" class="navbar-form navbar-right" role="search">
-                            <div class="grupo-de-formularios">
-                                <input "" class="form-control" div="" placeholder="buscar" type="text">
-                                <button class="btn btn-primary" type="submit">
-                                                        <span class=" glyphicon glyphicon-search">
-                                                        </span>
-                                                    </button>
-                                </input>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <section>
-            <div class="wrapper">
-                <form class="form-signin">
-                    <h2 class="form-signin-heading">
-                        Please login
-                    </h2>
-                    <input autofocus="" class="form-control" name="username" placeholder="Email Address" type="text" />
-                    <input class="form-control" name="password" placeholder="Password" type="password" />
-                    <label class="checkbox">
-                                        <input id="rememberMe" name="rememberMe" type="checkbox" value="remember-me">
-                                            Remember me
-                                        </input>
-                                    </label>
-                    <a <button="" class="btn btn-lg btn-primary btn-block" href="index.html" type="submit">
-                            Login
-                    </a>
-                </form>
-            </div>
-        </section>
-    </body>
-    </link>
-    </link>
-    </meta>
-</head>
+
+
+				</div>
+			</div>
+		</nav>
+		<div class="imgcontainer">
+			<img src="img/user.png" alt="WELCOME" class="avatar">
+		</div>
+
+		<div class="container">
+			<label><b>Username</b></label>
+			<input id="Email" type="text" placeholder="Enter Username" name="uname" required>
+
+			<label><b>Password</b></label>
+			<input id="Contraseña" type="password" placeholder="Enter Password" name="psw" required>
+
+			<button type="submit" onclick=" ingresar()">Login</button>
+			<input type="checkbox" checked="checked"> Remember me
+		</div>
+
+		<div class="container" style="background-color:#f1f1f1">
+			<button type="button" class="cancelbtn">Cancel</button>
+			<span class="psw">Forgot <a href="#">password?</a></span>
+		</div>
+		</form>
+      </header>
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script language="JavaScript" type="text/javascript" src="js/login.js"></script>
+
+</body>
 
 </html>
-<script src="js/jquery.js">
-
-
-</script>
-<script src="js/bootstrap.js">
-
-
-</script>
